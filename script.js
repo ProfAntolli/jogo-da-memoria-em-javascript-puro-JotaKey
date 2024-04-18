@@ -4,9 +4,6 @@ let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
 
-let player1 = 0
-let player2 = 0
-
 function flipCard() {
   if (lockBoard) return;
   if (this === firstCard) return;
