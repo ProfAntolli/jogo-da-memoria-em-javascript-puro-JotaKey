@@ -1,1 +1,2 @@
-[![Open in Visual Studio Code](/game/index.html)
+//github.com/ProfAntolli/jogo-da-memoria-em-javascript-puro-JotaKey
+
