@@ -1,2 +1,1 @@
-//github.com/ProfAntolli/jogo-da-memoria-em-javascript-puro-JotaKey
-
+Bem-vindo ao meu projeto! Visite o site [aqui](https://JotaKey.github.io/MemoryGame).
