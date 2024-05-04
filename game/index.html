@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1"/>
+        <link href="style.css" rel="stylesheet">
+        <title>Memory</title>
+    </head>
+           <!--tempo-->
+    <div id="timer" class="timer">60</div>
+               <!--O jogo-->
+       <div class="M-game">
+           <div class="M-card" data-framework="borboleta">
+           <img class="front-face" src="/images/borboleta.png" alt="Borboleta">
+                <img class="back-face" src="/images/back.png" alt="JS badge">
+           </div>
+    
+<div class="M-card" data-framework="borboleta">
+                <img class="front-face" src="/images/borboleta.png" alt="Borboleta">
+                <img class="back-face" src="/images/back.png" alt="JS badge">
+            </div>
+
+
+            <div class="M-card" data-framework="panda">
+                <img class="front-face" src="/images/panda.png" alt="Panda">
+                <img class="back-face" src="/images/back.png" alt="JS badge">
+            </div>
+
+
+            <div class="M-card" data-framework="panda">
+                <img class="front-face" src="/images/panda.png" alt="Panda">
+                <img class="back-face" src="/images/back.png" alt="JS badge">
+            </div>
+
+
+            <div class="M-card" data-framework="peixe">
+                <img class="front-face" src="/images/palhaco.png" alt="Peixe">
+                <img class="back-face" src="/images/back.png" alt="JS badge">
+            </div>
+
+
+            <div class="M-card" data-framework="peixe">
+                <img class="front-face" src="/images/palhaco.png" alt="Peixe">
+                <img class="back-face" src="/images/back.png" alt="JS badge">
+            </div>
+
+
+            <div class="M-card" data-framework="rato">
+                <img class="front-face" src="/images/rato.png" alt="Rato">
+                <img class="back-face" src="/images/back.png" alt="JS badge">
+            </div>
+
+
+            <div class="M-card" data-framework="rato">
+                <img class="front-face" src="/images/rato.png" alt="Rato">
+                <img class="back-face" src="/images/back.png" alt="JS badge">
+            </div>
+
+            <div class="M-card" data-framework="largato">
+                <img class="front-face" src="/images/largato.png" alt="Largato">
+                <img class="back-face" src="/images/back.png" alt="JS badge">
+            </div>
+
+            <div class="M-card" data-framework="largato">
+                <img class="front-face" src="/images/largato.png" alt="Largato">
+                <img class="back-face" src="/images/back.png" alt="JS badge">
+            </div>
+
+            <div class="M-card" data-framework="corvo">
+                <img class="front-face" src="/images/corvo.png" alt="Corvo">
+                <img class="back-face" src="/images/back.png" alt="JS badge">
+            </div>
+
+
+            <div class="M-card" data-framework="corvo">
+                <img class="front-face" src="/images/corvo.png" alt="Corvo">
+                <img class="back-face" src="/images/back.png" alt="JS badge" >
+            </div>
+        </div>
+     <!--placar -->
+        <div class="rank">
+            <div class="jogador" id="player1" >player1  = <p id="ponto1">0</p></div>
+            <div class="jogador" id="player2" >player2 = <p id="ponto2">0</p></div>
+        </div>
+            <!--audio-->
+        <div class ="menu"> 
+            <div class="audio-card" data-framework="audio">
+                <img class="front-face" src="/images/com.png" alt="">
+            <img class="back-face" src="/images/sem.png" alt="JS badge" >
+            </div>
+            <audio id="musica"  hidden loop>
+                <source src="/audio/musica.mp3" type="audio/mp3">
+            </audio>
+ <!--audio virando -->
+            <audio id="cv"   hidden  >
+                <source src="/audio/cv.mp3" type="audio/mp3">
+            </audio>
+            <audio id="cvd"   hidden  >
+                <source src="/audio/cv.mp3" type="audio/mp3">
+            </audio>
+       <!--fundo do start -->
+        <div class="back-start">
+                <div class="start-card" data-framework="start" value="60">
+                    <img class="front-face" src="/images/start.png" alt="">
+                <img class="back-face" src="/images/back.png" alt="JS badge" >
+            </div>
+             <!--confg do tempo -->
+                <div class="input-container" >
+                    <label for="second"></label>
+                    <input type="number" hidden ="" id="second" value="60" >
+                  </div>
+                </div>
+        <script src="/game/scripts/music.js"></script>
+        <script src="/game/scripts/time.js"></script>
+        <script src="/game/scripts/script.js"></script>
+    </body>
+</html>
